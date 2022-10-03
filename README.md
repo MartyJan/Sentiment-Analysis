@@ -43,9 +43,9 @@ Testing with the best model selected from cross validation gave rise to the foll
 
 | Input | Output |
 | ----- | ------ | 
-| This Spiderman is really fantastic. It captivated me right from the start, and I was entranced every second. | positive |
-| Another worst action film! Full of annoying overuse scene, and not intense action scene! Not recommended! | negative |
-| Encanto is a creative movie featuring beautiful and vibrant animation. However, the story feels a little underdeveloped. While there are some magical and emotional moments, it seems as if they didn't know how to end the movie. | positive |
+| "This Spiderman is really fantastic. It captivated me right from the start, and I was entranced every second." | positive |
+| "Another worst action film! Full of annoying overuse scene, and not intense action scene! Not recommended!" | negative |
+| "Encanto is a creative movie featuring beautiful and vibrant animation. However, the story feels a little underdeveloped. While there are some magical and emotional moments, it seems as if they didn't know how to end the movie." | positive |
 
 
 ## Directory
@@ -53,5 +53,5 @@ Testing with the best model selected from cross validation gave rise to the foll
 /
 ├── w2v-100.ipynb          # Training with word vector dimension = 100
 ├── w2v-200.ipynb          # Training with word vector dimension = 200
-└── best (w2v+SVM).ipynb   # Inference with the the best model
+└── best (w2v+SVM).ipynb   # Inference by the the best model
 ```
