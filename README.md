@@ -1,5 +1,5 @@
 # Sentiment Analysis
-Given an movie review, use machine learning model to extract subjective information, i.e., determine whether it is positive or negative.
+Given a movie review, use machine learning model to extract subjective information, i.e., determine whether it is positive or negative.
 
 ## Workflow
 1. IMDB Dataset of 50K Movie Reviews <sup>[1](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)</sup> is used for training and validation
