@@ -13,7 +13,7 @@ Given a movie review, use machine learning model to extract subjective informati
 4. Vectorization: 
     - Combine TFIDF and Word Embedding, take the mean of (TFIDF × Word Embedding)
     - Word Embedding either uses the model training by IMDB dataset or pretrained Glove, and experiment with word vector dimension to be 100 or 200
-5. Input processed data into a binary classification model: 
+5. Input the processed data into a binary classification model: 
     - Experiment with Naive Bayes (NB), Support Vector Machine (SVM), and Deep Neural Network
 6. Use 5-fold cross validation to evaluate models' performance, including accuracy, precision and recall
 7. Inference
@@ -36,7 +36,7 @@ Given a movie review, use machine learning model to extract subjective informati
 
 Note: dim(wv) means word vector dimension.
 
-Observing from the table, using IMDB dataset trained Word2Vec model and TFIDF to vectorize words to 200-dimensional word vector and then input SVM binary classification model leads to the best result.
+Observing from the table, using IMDB dataset trained Word2Vec model and TFIDF to vectorize words to 200-dimensional word vector, and then input the processed data into SVM binary classification model leads to the best result.
 
 ### Inference
 Testing with the best model selected from cross validation gave rise to the following results.
