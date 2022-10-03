@@ -19,7 +19,7 @@ Given an movie review, use machine learning model to extract subjective informat
 7. Inference
 
 
-## Result
+## Results
 ### Cross Validation
 |          Model                        | Accuracy | Precision | Recall |
 | ------------------------------------- | -------- | --------- | ------ |
