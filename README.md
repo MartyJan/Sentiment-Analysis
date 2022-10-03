@@ -2,7 +2,7 @@
 Given an movie review, use machine learning model to extract subjective information, i.e., determine whether it is positive or negative.
 
 ## Workflow
-1. IMDB Dataset of 50K Movie Reviews [1](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) was used for training and validation.
+1. IMDB Dataset of 50K Movie Reviews <sup>[1](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)<sup> was used for training and validation.
 2. Tokenization
 3. Preprocessing
     1. Eliminate numbers and punctuation marks
@@ -33,6 +33,7 @@ Given an movie review, use machine learning model to extract subjective informat
 | dim(wv) = 200, W2V + DNN              |   0.875  |   0.867   |  0.882 |
 | dim(wv) = 200, Pretrained Glove + NB  |   0.734  |   0.742   |  0.735 |
 | dim(wv) = 200, Pretrained Glove + SVM |   0.837  |   0.824   |  0.845 |
+
 Note: dim(wv) means word vector dimension.
 
 Observing from the table, using IMDB dataset trained Word2Vec model and TFIDF to vectorize words to 200-dimensional word vector and then input SVM binary classification model leads to the best result.
