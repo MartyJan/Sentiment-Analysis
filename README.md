@@ -2,7 +2,7 @@
 Given an movie review, use machine learning model to extract subjective information, i.e., determine whether it is positive or negative.
 
 ## Workflow
-1. IMDB Dataset of 50K Movie Reviews <sup>[1](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)</sup> was used for training and validation.
+1. IMDB Dataset of 50K Movie Reviews <sup>[1](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)</sup> is used for training and validation
 2. Tokenization
 3. Preprocessing
     1. Eliminate numbers and punctuation marks
@@ -12,7 +12,7 @@ Given an movie review, use machine learning model to extract subjective informat
     5. Convert all characters to lowercase
 4. Vectorization: 
     - Combine TFIDF and Word Embedding, take the mean of (TFIDF × Word Embedding)
-    - Word Embedding either uses the model training by IMDB dataset or pretrained Glove, and experiment with word vector dimension to be 100 or 200.
+    - Word Embedding either uses the model training by IMDB dataset or pretrained Glove, and experiment with word vector dimension to be 100 or 200
 5. Input processed data into a binary classification model: 
     - Experiment with Naive Bayes (NB), Support Vector Machine (SVM), and Deep Neural Network
 6. Use 5-fold cross validation to evaluate models' performance, including accuracy, precision and recall
@@ -39,7 +39,8 @@ Note: dim(wv) means word vector dimension.
 Observing from the table, using IMDB dataset trained Word2Vec model and TFIDF to vectorize words to 200-dimensional word vector and then input SVM binary classification model leads to the best result.
 
 ### Inference
-Testing with the best model selected from cross validation gave rise to the following results. 
+Testing with the best model selected from cross validation gave rise to the following results.
+
 | Input | Output |
 | ----- | ------ | 
 | This Spiderman is really fantastic. It captivated me right from the start, and I was entranced every second. | positive |
